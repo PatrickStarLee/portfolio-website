@@ -25,7 +25,7 @@ const Navabar = () => {
         {/* hamburger */}
         {/* className="md:hidden pr-2.5" */}
         <button onClick={handleClick} className="Hamburger">
-          <FaBars />
+          {!nav ? <FaBars /> : <FaTimes />}
         </button>
 
         {/* mobile menu */}
