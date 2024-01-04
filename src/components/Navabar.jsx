@@ -89,7 +89,7 @@ const Navabar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/patrickwlee/"
               className="flex justify-between items-center w-full text-gray-300"
             >
               LinkedIn <FaLinkedinIn size={30} />
@@ -97,7 +97,7 @@ const Navabar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
-              href="/"
+              href="https://github.com/PatrickStarLee"
               className="flex justify-between items-center w-full text-gray-300"
             >
               GitHub <FaGithub size={30} />
@@ -113,7 +113,7 @@ const Navabar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6b62e6]">
             <a
-              href="/"
+              href="https://docs.google.com/document/d/1to4Abw_eKsFhxtvaa-DVUfUlUeyzxgwybt09gtV39ws/edit?usp=sharing"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />

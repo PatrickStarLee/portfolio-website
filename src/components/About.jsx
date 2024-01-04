@@ -13,12 +13,27 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className='sm:text-right text-4xl font-bold'>
-                <p>Hi. I'm Patrick, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-                <p> Filler text about passion</p>
-            </div>
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hi. I'm Patrick, nice to meet you. Please take a look around.</p>
+          </div>
+          <div>
+            <p>
+              I am pursuing my Master's degree in Computer Science and
+              Engineering at Santa Clara University, where I have gained skills
+              in C++, GitHub, React.js, and more. I have applied these skills in
+              several projects and internships, such as winning first place at
+              Hack 4 Humanity 2022 by creating a web application for users to
+              find COVID-19 appointments.
+            </p>
+            <br></br>
+            <p>
+              I am actively seeking full-time positions in the software
+              engineering field, where I can leverage my skills, experience, and
+              enthusiasm to create innovative and impactful solutions. I am
+              eager to join a diverse and collaborative team that values
+              problem-solving, creativity, and user satisfaction.
+            </p>
+          </div>
         </div>
       </div>
     </div>
