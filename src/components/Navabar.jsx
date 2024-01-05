@@ -45,7 +45,7 @@ const Navabar = () => {
       </ul>
 
       {/* hamburger */}
-      <button onClick={handleClick} className="md:hidden pr-2.5">
+      <button onClick={handleClick} className="md:hidden pr-2.5 z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </button>
 
