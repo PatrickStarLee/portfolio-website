@@ -12,9 +12,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <div className="">
-        <Work />
-      </div>
+      <Work />
       <Contact />
     </div>
   );
