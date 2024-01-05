@@ -16,7 +16,7 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Patrick, nice to meet you. Please take a look around.</p>
           </div>
-          <div>
+          <div className="text-[#8892b0] max-w-[700px] text-sm sm:text-base">
             <p>
               I am pursuing my Master's degree in Computer Science and
               Engineering at Santa Clara University, where I have gained skills

@@ -14,7 +14,7 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a Software Engineer.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
+        <p className="text-[#8892b0] py-4 max-w-[700px] text-sm sm:text-base">
           I'm a software engineer that specializes in front-end development for web applications to improve user experience. 
           But, I've recently gained experience working with REST APIs in back-end development and wish to pursue learning
           more about back-end development.
