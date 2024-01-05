@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+// import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import "../index.css";
 import { Link } from "react-scroll";
@@ -17,7 +17,7 @@ const Navabar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li className="hover:text-pink-600 duration-300">
+        <li className="hover:text-pink-600  duration-300">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
@@ -46,7 +46,7 @@ const Navabar = () => {
 
       {/* hamburger */}
       <button onClick={handleClick} className="md:hidden pr-2.5 z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaBars className="hover:text-pink-600 duration-300"/> : <FaTimes className="hover:text-pink-600 duration-300"/>}
       </button>
 
       {/* mobile menu */}
@@ -57,27 +57,27 @@ const Navabar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -103,14 +103,14 @@ const Navabar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4ba07c]">
+          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4ba07c]">
             <a
-              href="/"
+              href="mailto:patricklee260@gmail.com"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
             </a>
-          </li>
+          </li> */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6b62e6]">
             <a
               href="https://docs.google.com/document/d/1to4Abw_eKsFhxtvaa-DVUfUlUeyzxgwybt09gtV39ws/edit?usp=sharing"

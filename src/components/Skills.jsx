@@ -21,7 +21,7 @@ const Skills = () => {
           {skills.map((item) => (
             <div
               key={item.id}
-              className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:bg-pink-600"
+              className="shadow-md shadow-[#040c16] hover:scale-110 duration-300 hover:bg-gradient-to-r from-[#709dffcc] to-[#5752E5CC]"
             >
               <img
                 className="w-16 mx-auto pt-3"

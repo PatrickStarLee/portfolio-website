@@ -36,7 +36,7 @@ const Work = () => {
                   </a>
                   <a href={item.demo}>
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duration-500">
-                      Demo
+                      View
                     </button>
                   </a>
                 </div>
