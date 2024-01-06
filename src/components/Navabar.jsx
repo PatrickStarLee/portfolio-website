@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import "../index.css";
-import { Link } from "react-scroll";
+//import { Link } from "react-scroll";
 
 const Navabar = () => {
   const [nav, setNav] = useState(false);
@@ -11,42 +11,34 @@ const Navabar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="hidden">
-        Logo
-      </div>
+      <div className="hidden">Logo</div>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li className="hover:text-pink-600  duration-300">
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+          <a href="/">Home</a>
         </li>
         <li className="hover:text-pink-600 duration-300">
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
+          <a href="/about">About</a>
         </li>
         <li className="hover:text-pink-600 duration-300">
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
+          <a href="/skills">Skills</a>
         </li>
         <li className="hover:text-pink-600 duration-300">
-          <Link to="work" smooth={true} duration={500}>
-            Work
-          </Link>
+          <a href="/work">Work</a>
         </li>
         <li className="hover:text-pink-600 duration-300">
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 
       {/* hamburger */}
       <button onClick={handleClick} className="md:hidden pr-2.5 z-10">
-        {!nav ? <FaBars className="hover:text-pink-600 duration-300"/> : <FaTimes className="hover:text-pink-600 duration-300"/>}
+        {!nav ? (
+          <FaBars className="hover:text-pink-600 duration-300" />
+        ) : (
+          <FaTimes className="hover:text-pink-600 duration-300" />
+        )}
       </button>
 
       {/* mobile menu */}
@@ -58,29 +50,19 @@ const Navabar = () => {
         }
       >
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+          <a href="/">Home</a>
         </li>
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
+          <a href="/about">About</a>
         </li>
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
+          <a href="/skills">Skills</a>
         </li>
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
-          </Link>
+          <a href="/work">Work</a>
         </li>
         <li className="py-6 text-4xl hover:text-pink-600 duration-300">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 

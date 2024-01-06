@@ -1,6 +1,5 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -15,17 +14,28 @@ const Home = () => {
           I'm a Software Engineer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] text-sm sm:text-base">
-          I'm a software engineer that specializes in front-end development for web applications to improve user experience. 
-          But, I've recently gained experience working with REST APIs in back-end development and wish to pursue learning
-          more about back-end development.
+          I'm a software engineer that specializes in front-end development for
+          web applications to improve user experience. But, I've recently gained
+          experience working with REST APIs in back-end development and wish to
+          pursue learning more about back-end development.
         </p>
         <div>
-          <Link to="work" smooth={true} duration={500} className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:cursor-pointer w-40 duration-300">
+          {/* <Link to="work" smooth={true} duration={500} className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:cursor-pointer w-40 duration-300">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
-          </Link>
+          </Link> */}
+          <a
+            href="/work"
+            duration={500}
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:cursor-pointer w-40 duration-300"
+          >
+            View Work
+            <span>
+              <HiArrowNarrowRight className="ml-3" />
+            </span>
+          </a>
         </div>
       </div>
     </div>
