@@ -49,19 +49,19 @@ const Navabar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
+        <li className="py-6 text-4xl text-gray-300 hover:text-pink-600 duration-300">
           <a href="/">Home</a>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
+        <li className="py-6 text-4xl text-gray-300 hover:text-pink-600 duration-300">
           <a href="/about">About</a>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
+        <li className="py-6 text-4xl text-gray-300 hover:text-pink-600 duration-300">
           <a href="/skills">Skills</a>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
+        <li className="py-6 text-4xl text-gray-300 hover:text-pink-600 duration-300">
           <a href="/work">Work</a>
         </li>
-        <li className="py-6 text-4xl hover:text-pink-600 duration-300">
+        <li className="py-6 text-4xl text-gray-300 hover:text-pink-600 duration-300">
           <a href="/contact">Contact</a>
         </li>
       </ul>
