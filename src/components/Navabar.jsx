@@ -66,7 +66,7 @@ const Navabar = () => {
         </li>
       </ul>
 
-      {/* social icons */}
+      {/* social icons lg breakpoint*/}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
@@ -85,14 +85,6 @@ const Navabar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4ba07c]">
-            <a
-              href="mailto:patricklee260@gmail.com"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li> */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6b62e6]">
             <a
               href="https://docs.google.com/document/d/1to4Abw_eKsFhxtvaa-DVUfUlUeyzxgwybt09gtV39ws/edit?usp=sharing"
