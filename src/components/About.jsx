@@ -18,12 +18,12 @@ const About = () => {
           </div>
           <div className="text-[#8892b0] max-w-[700px] text-sm sm:text-base">
             <p>
-              I am pursuing my Master's degree in Computer Science and
-              Engineering at Santa Clara University, where I have gained skills
-              in C++, GitHub, React.js, and more. I have applied these skills in
-              several projects and internships, such as winning first place at
-              Hack 4 Humanity 2022 by creating a web application for users to
-              find COVID-19 appointments.
+              I am a dilligent, detail-oriented, and adaptable Software Engineer with a
+              Master's degree in Computer Science and Engineering at Santa Clara University.
+              I have experience with object-oriented programming, data structures, algorithms,
+              and full-stack development. I am a problem solver, design thinker, quick learner,
+              challenge seeker, and result-oriented in established and start-up environments, known
+              for excellent communication and collaboration skills across multiple teams.
             </p>
             <br></br>
             <p>
